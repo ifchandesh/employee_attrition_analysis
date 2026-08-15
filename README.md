@@ -1,6 +1,9 @@
 # Employee Attrition Analysis & Prediction
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ifchandesh/employee_attrition_analysis/blob/main/employee_attrition_analysis.ipynb)
+
 An end-to-end machine learning project to analyze employee turnover, identify key drivers of resignation, and predict flight risk using the IBM HR Analytics dataset.
+
 
 ## Project Overview
 
