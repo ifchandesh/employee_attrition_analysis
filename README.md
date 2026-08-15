@@ -1,14 +1,8 @@
 # Employee Attrition Analysis & Prediction
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ifchandesh/employee_attrition_analysis/blob/main/employee_attrition_analysis.ipynb)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python: 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
-
 An end-to-end machine learning project to analyze employee turnover, identify key drivers of resignation, and predict flight risk using the IBM HR Analytics dataset.
 
----
-
-## 📌 Project Overview
+## Project Overview
 
 - **Dataset**: IBM HR Analytics Employee Attrition dataset (1,470 employee records, 35 features).
 - **Factors Analyzed in EDA**:
@@ -22,9 +16,8 @@ An end-to-end machine learning project to analyze employee turnover, identify ke
   - **Confusion Matrix Analysis**: Multi-model confusion matrix heatmaps to inspect false positive and false negative trade-offs.
 - **Interactive HR Dashboard**: Built with **Gradio**, featuring real-time organizational KPIs (Total Headcount, Attrition Rate, Average Monthly Salary) and a multi-factor Employee Flight Risk Predictor supporting 11 dynamic employee attributes.
 
----
 
-## 🔍 Key Insights from EDA
+## Key Insights from EDA
 
 1. **OverTime**: Employees working overtime exhibit significantly higher attrition rates compared to non-overtime peers.
 2. **Work-Life Balance**: Poor work-life balance (Rating 1) shows the highest turnover rates across all balance tiers.
@@ -34,50 +27,11 @@ An end-to-end machine learning project to analyze employee turnover, identify ke
 6. **Age & Tenure**: Younger employees (early 20s to early 30s) and employees in their first 1-2 years of tenure experience peak turnover.
 7. **Job Satisfaction**: Strong inverse correlation with attrition—lower satisfaction ratings directly correlate with higher turnover.
 
----
-
-## 🚀 How to Run
-
-### Option 1: Google Colab (Recommended)
+##  How to Run on Google Colab (Recommended)
 1. Click the **Open in Colab** badge above or navigate to [employee_attrition_analysis.ipynb](employee_attrition_analysis.ipynb).
 2. Run all cells by selecting **Runtime** ➔ **Run all** (`Ctrl + F9`).
 3. The interactive Gradio dashboard will launch inline and generate a public shareable link.
 
-### Option 2: Local Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ifchandesh/employee_attrition_analysis.git
-   cd employee_attrition_analysis
-   ```
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # Linux/macOS
-   venv\Scripts\activate      # Windows
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Launch Jupyter Notebook:
-   ```bash
-   jupyter notebook employee_attrition_analysis.ipynb
-   ```
-
----
-
-## 📁 Repository Structure
-
-```
-employee_attrition_analysis/
-├── employee_attrition_analysis.ipynb    # Main Jupyter notebook (Colab & local ready)
-├── requirements.txt                    # Python package dependencies
-├── LICENSE                             # MIT License
-└── README.md                           # Project documentation
-```
-
----
-
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
